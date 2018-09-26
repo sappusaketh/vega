@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-    "description": "A bar chart showing the US population distribution of age groups in 2000.",
+    "description": "A bar chart showing the US Agriculture losses in 2015.",
     "data": {
       "url": "https://raw.githubusercontent.com/sappusaketh/vega/master/losses2015_transformed.csv"
     },
@@ -17,12 +17,6 @@
         "type": "quantitative",
         "axis": {"title": "Amount"},
         "scale": {}
-      },
-       "text": {
-        "aggregate": "sum",
-        "field": "Amount",
-        "type": "quantitative",
-        "format": ""
       }
     }
   }
