@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-    "height":500;
-    "width":460;
+    "height":500,
+    "width":460,
     "description": "A bar chart showing the US Agriculture losses in 2015.",
     "data": {
       "url": "https://raw.githubusercontent.com/sappusaketh/vega/master/losses2015_transformed.csv"
