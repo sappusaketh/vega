@@ -8,19 +8,15 @@
   <script src="https://cdn.jsdelivr.net/npm/vega@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc3"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
-  <style>
-  #vis,#vis2{
-    width:50%;
-    
-  }
-  </style>
-
+ 
 </head>
 <body>
 
 <!-- Container for the visualization -->
-<div id="vis" align="right" ></div>
-<div id="vis2"  align="left" ></div>
+
+<div id="vis" ></div>
+<div id="vis2" ></div>
+
 
 <script type="text/javascript">
 
@@ -32,7 +28,7 @@
   vegaEmbed('#vis', spec).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
-  var spec = "https://raw.githubusercontent.com/abhaysm7/Vega_Chloropleth_Map/master/Chloropleth_Map.json";
+  var spec = "https://raw.githubusercontent.com/sappusaketh/vega/e0350f92e54cadedecc3441a50e36ad507a5e021/Vega_Visual/barchat.json";
   
     vegaEmbed('#vis2', spec).then(function(result) {
       // Access the Vega view in//stance (https://vega.github.io/vega/docs/api/view/) as result.view
