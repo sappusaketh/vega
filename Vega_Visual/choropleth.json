@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>>  Changes to be committed:
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
     "description": "A bar chart showing the US population distribution of age groups in 2000.",
@@ -26,6 +29,7 @@
         "format": ""
       }
     }
+<<<<<<< HEAD
   }
 =======
 {
@@ -53,3 +57,6 @@
     }
   }
 >>>>>>> f90ff0e41c6e1087eda6b5b68ffb14e5c23a4b85
+=======
+  }
+>>>>>>>  Changes to be committed:
